@@ -29,3 +29,28 @@ layout: '../layouts/Default.astro'
 | Maskulinum | **der** Anzug      | **ein** Anzug        |
 | Femininum  | **die** Mütze      | **eine** Mütze       |
 | Neutrum    | **das** Kleid      | **ein** Kleid        |
+
+### Deklination des bestimmten Artikels
+
+| Singular      | Maskulin | Feminin | Neutral |
+| ------------- | -------- | ------- | ------- |
+| **Nominativ** | der      | die     | das     | 
+| **Genitiv**   | des      | der     | des     |
+| **Dativ**     | dem      | der     | dem     |
+| **Akkusativ** | den      | die     | das     |
+
+| Plural        | Maskulin | Feminin | Neutral |
+| ------------- | -------- | ------- | ------- |
+| **Nominativ** | die      | die     | die     | 
+| **Genitiv**   | der      | der     | der     |
+| **Dativ**     | den      | den     | den     |
+| **Akkusativ** | die      | die     | die     |
+
+## Demonstrativpronomen *dieser*
+
+|               | Maskulinum | Femininum | Neutrum | Plural |
+| ------------- | ---------- | --------- | ------- | ------ |
+| **Nominativ** | dieser     | diese     | dieses  | diese  |
+| **Genitiv**   | dieses     | dieser    | dieses  | dieser |
+| **Dativ**     | diesem     | dieser    | diesem  | diesen |
+| **Akkusativ** | diesen     | diese     | dieses  | diese  |
