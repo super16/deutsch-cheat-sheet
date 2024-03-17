@@ -1,6 +1,8 @@
 ---
+import type { MarkdownHeading } from 'astro';
+
 interface Props {
-  headings: Array<Object>;
+  headings: Array<MarkdownHeading>;
 }
 
 const { headings } = Astro.props;
@@ -10,9 +12,9 @@ const { headings } = Astro.props;
   <nav class='hidden lg:block sticky top-6'>
     <ul>
       {
-        headings.map((heading: any) => (
+        headings.map((heading: MarkdownHeading) => (
           <li class='py-1'>
-            {[...Array(heading.depth - 1)].map((_, _i) => (
+            {[...Array(heading.depth - 1)].map(() => (
               <span class='inline-block w-4' />
             ))}
             <a

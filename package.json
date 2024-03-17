@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint --fix --ext .astro,.js,.ts src"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.2",
@@ -24,13 +25,12 @@
     "@iconify-json/logos": "^1.1.41",
     "@iconify-json/uil": "^1.1.8",
     "@resvg/resvg-js": "^2.6.0",
-    "@typescript-eslint/parser": "^6.15.0",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
     "@unocss/reset": "^0.57.7",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "prettier": "^3.1.1",
-    "prettier-plugin-astro": "^0.12.2",
     "sharp": "^0.32.6",
     "unocss": "^0.57.7"
   }
