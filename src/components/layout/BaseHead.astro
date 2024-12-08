@@ -1,6 +1,6 @@
 ---
 import LocalFont from '../generic/LocalFont.astro';
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title: string;
@@ -27,7 +27,7 @@ const { title, description } = Astro.props;
 
   <title>{title}</title>
 
-  <ViewTransitions />
+  <ClientRouter />
 
   <slot />
 </head>
